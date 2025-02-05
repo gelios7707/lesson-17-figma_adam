@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Geist+Mono:wght@100..900&family=Lexend+Exa:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+}
+.header_up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    padding-left: 174px;
+    padding-right: 174px;
+    padding-top: 72px;
+}
+.header_up-left{
+    display: flex;
+    align-items: center;
+    
+}
+
+.header_settings img {
+    width: 70px;
+    height: 70px;
+    
+}
+.header__menu{
+    width: 338px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Faculty Glyphic", serif;
+    
+    
+}
+.header__menu a{
+    color: gray;
+    text-decoration: none;
+}
+.header__menu span {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.header_left :nth-child(1){
+    line-height: 28.8px;
+    font-size: 24px;
+    font-weight: 500;
+    color: gray;
+    
+}
+.header_left :nth-child(2){
+    line-height: 72px;
+    font-size: 60px;
+    font-weight: 700;
+}
+.header_left :nth-child(3){
+    line-height: 31.75px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.header_left p {
+    font-family: "Faculty Glyphic", serif;
+}
+.header_left{
+    padding-left: 174px;
+    padding-top: 228px;
+}
+.header_left button {
+    margin-top: 50px;
+    width: 200px;
+    height: 60px;
+    background-color: #8643DC;
+    color: white;
+    font-size: 24px;
+    
+    border-radius: 100px;
+    border-color: #8643DC;
+    font-style: normal;
+}
+.header_photo img{
+    width: 535px;
+    height: 622px;
+    position: absolute;
+    top: 46px;
+    right: 241px;
+}
+.Servises_intro :nth-child(1) {
+    color:  #8643DC;
+    font-size: 18px;
+    line-height: 23.81px;
+    margin-bottom: 20px;
+}
+.Servises_intro{
+    margin-top: 268px;
+    
+    font-family: "Faculty Glyphic", serif;
+}
+.Servises_intro :nth-child(2){
+    font-size: 36px;
+    line-height: 47.63px;
+}
+.Servises_intro :nth-child(3){
+    font-size: 36px;
+    line-height: 47.63px;
+}
+main{
+    padding-left: 174px;
+    padding-right: 165px;
+    font-family: "Faculty Glyphic", serif;
+}
+.Servises_content-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.Servises_content-logo span{
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.75px;
+
+}
+.Servises_content{
+    
+    display: flex;
+}
+.Servises_content_blocks{
+    width: 350px;
+    height: 100%;
+    margin-top: 50px;
+}
+.Servises_content_blocks p{
+    margin-top: 21px;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight:400
+}
+.Portfolio{
+    margin-top: 100px;
+}
+.Portfolio_block {
+    display: flex;
+    justify-content: space-between;
+}
+.Portfolio_block__intro-left :nth-child(1){
+    color:  #8643DC;
+    font-size: 18px;
+    line-height: 23.81px;
+    margin-bottom: 20px;
+
+}
+.Portfolio_block__intro-left :nth-child(2){
+    font-size: 36px;
+    line-height: 47.63px;
+}
+.Portfolio_block__intro-left :nth-child(3){
+    font-size: 36px;
+    line-height: 47.63px;
+}
+.Portfolio_intro-right{
+    display: flex;
+    
+    align-items: center;
+}
+.Portfolio_intro-right p {
+    padding-right: 15px;
+}
+.Portfolio_intro-right img {
+    width: 24px;
+    height: 24px;
+}
+.Portfolio_img {
+    display: flex;
+}
+.Portfolio_img img{
+    width: 500px;
+    height: 360px;
+    margin-top: 30px;
+    
+}
+.Portfolio_img :nth-child(1) {
+   margin-right: 10px;
+}
+.Portfolio_img :nth-child(2) {
+    margin-left: 10px;
+}
+
